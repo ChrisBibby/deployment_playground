@@ -15,8 +15,7 @@ jobs:
   deploy:
     needs: build
     name: Deploy to VSCode Marketplace
-    environment:
-      name: main
+    environment: "main"
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 Deploying the code."
