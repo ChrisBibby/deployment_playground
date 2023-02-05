@@ -13,7 +13,7 @@ jobs:
       - run: echo "🎉 Building the code."
 
   deploy:
-    needs: [ build ]
+    needs: [build]
     name: Deploy to VSCode Marketplace
     environment: "main"
     runs-on: ubuntu-latest
