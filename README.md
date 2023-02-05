@@ -1,5 +1,2 @@
-# deployment_playground
-Github Action Deployment Testing
-
-
-Counter: 00003
+# Deployment Playground
+Github Action with Gated Approval for Deployment
